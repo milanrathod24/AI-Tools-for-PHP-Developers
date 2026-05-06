@@ -1,0 +1,24 @@
+/* Custom CSS for AI Tools Training Project */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    border-radius: 0 0 50px 50px;
+    margin-bottom: 40px;
+}
+
+.product-card {
+    transition: transform 0.3s;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
